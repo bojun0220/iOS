@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "d3d64e306c5ad394c5534b25cad07186"
+build_time: [1553418319, 342583000]
+inputs:
+  "/Users/bojunhuang/Documents/GitHub/iOS/StackViewDemo/StackViewDemo/ViewController.swift": [1553418313, 0]
+  "/Users/bojunhuang/Documents/GitHub/iOS/StackViewDemo/StackViewDemo/AppDelegate.swift": [1553418313, 0]
