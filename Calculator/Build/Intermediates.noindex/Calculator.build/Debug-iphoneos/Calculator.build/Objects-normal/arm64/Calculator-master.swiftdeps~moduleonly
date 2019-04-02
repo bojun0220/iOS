@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "e4af80eebaee84c4be3af5e21760c5e4"
+build_time: [1553764734, 489761000]
+inputs:
+  "/Users/bojunhuang/Documents/GitHub/iOS/Calculator/Calculator/ViewController.swift": [1553764734, 333196933]
+  "/Users/bojunhuang/Documents/GitHub/iOS/Calculator/Calculator/AppDelegate.swift": [1553758474, 877652672]

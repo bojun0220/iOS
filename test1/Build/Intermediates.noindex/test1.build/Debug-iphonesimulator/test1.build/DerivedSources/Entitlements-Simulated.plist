@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>FAKETEAMID.BOJUNHUANG.test1</string>
+	<string>GTR7TVWLVZ.BOJUNHUANG.test1</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>FAKETEAMID.BOJUNHUANG.test1</string>
+		<string>GTR7TVWLVZ.BOJUNHUANG.test1</string>
 	</array>
 </dict>
 </plist>

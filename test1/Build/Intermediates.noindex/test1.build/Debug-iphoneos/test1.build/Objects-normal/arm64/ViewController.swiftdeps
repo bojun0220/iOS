@@ -6,10 +6,14 @@ provides-nominal:
 provides-member:
 - ["5test114ViewControllerC", ""]
 provides-dynamic-lookup:
+- "Magic"
+- "magicaction"
 - "showMessage"
 - "viewDidLoad"
 depends-top-level:
-- !private "BooleanLiteralType"
+- !private "!"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
 - !private "StringLiteralType"
 - !private "UIAlertAction"
 - !private "UIAlertController"
@@ -17,90 +21,159 @@ depends-top-level:
 - "UIViewController"
 - "ViewController"
 depends-member:
-- !private ["SK", "init"]
-- !private ["SK", "init"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "setTitle"]
+- !private ["So15CALayerDelegateP", "setTitleColor"]
+- !private ["s7CVarArgP", "Magic"]
 - !private ["s7CVarArgP", "Style"]
 - !private ["s7CVarArgP", "UIAlertAction"]
 - !private ["s7CVarArgP", "UIAlertController"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "black"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "red"]
+- !private ["s7CVarArgP", "setTitle"]
+- !private ["s7CVarArgP", "setTitleColor"]
+- !private ["s7CVarArgP", "temp"]
+- !private ["s7CVarArgP", "updateUI"]
+- !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
-- !private ["Sl", "init"]
-- !private ["Sl", "init"]
-- !private ["SL", "init"]
-- !private ["SL", "init"]
+- !private ["s7CVarArgP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "Magic"]
 - !private ["s28CustomDebugStringConvertibleP", "Style"]
 - !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
 - !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "red"]
+- !private ["s28CustomDebugStringConvertibleP", "setTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "setTitleColor"]
+- !private ["s28CustomDebugStringConvertibleP", "temp"]
+- !private ["s28CustomDebugStringConvertibleP", "updateUI"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s17CustomReflectableP", "init"]
-- !private ["s17CustomReflectableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s17CustomReflectableP", "backgroundColor"]
+- !private ["s17CustomReflectableP", "black"]
+- !private ["s17CustomReflectableP", "red"]
+- !private ["s17CustomReflectableP", "setTitle"]
+- !private ["s17CustomReflectableP", "setTitleColor"]
+- !private ["s17CustomReflectableP", "white"]
+- !private ["s23CustomStringConvertibleP", "Magic"]
 - !private ["s23CustomStringConvertibleP", "Style"]
 - !private ["s23CustomStringConvertibleP", "UIAlertAction"]
 - !private ["s23CustomStringConvertibleP", "UIAlertController"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "black"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "red"]
+- !private ["s23CustomStringConvertibleP", "setTitle"]
+- !private ["s23CustomStringConvertibleP", "setTitleColor"]
+- !private ["s23CustomStringConvertibleP", "temp"]
+- !private ["s23CustomStringConvertibleP", "updateUI"]
+- !private ["s23CustomStringConvertibleP", "view"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
-- !private ["Se", "init"]
-- !private ["Se", "init"]
-- !private ["SE", "init"]
-- !private ["SE", "init"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "backgroundColor"]
+- !private ["Se", "black"]
+- !private ["Se", "red"]
+- !private ["Se", "setTitle"]
+- !private ["Se", "setTitleColor"]
+- !private ["Se", "white"]
+- !private ["SE", "backgroundColor"]
+- !private ["SE", "black"]
+- !private ["SE", "red"]
+- !private ["SE", "setTitle"]
+- !private ["SE", "setTitleColor"]
+- !private ["SE", "white"]
+- !private ["SQ", "Magic"]
 - !private ["SQ", "Style"]
 - !private ["SQ", "UIAlertAction"]
 - !private ["SQ", "UIAlertController"]
 - ["SQ", ""]
 - !private ["SQ", "addAction"]
 - !private ["SQ", "alert"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "black"]
 - !private ["SQ", "default"]
 - !private ["SQ", "init"]
 - !private ["SQ", "init"]
+- !private ["SQ", "normal"]
 - !private ["SQ", "present"]
+- !private ["SQ", "red"]
+- !private ["SQ", "setTitle"]
+- !private ["SQ", "setTitleColor"]
+- !private ["SQ", "temp"]
+- !private ["SQ", "updateUI"]
+- !private ["SQ", "view"]
 - !private ["SQ", "viewDidLoad"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SQ", "white"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
+- !private ["s23ExpressibleByNilLiteralP", "black"]
+- !private ["s23ExpressibleByNilLiteralP", "red"]
+- !private ["s23ExpressibleByNilLiteralP", "setTitle"]
+- !private ["s23ExpressibleByNilLiteralP", "setTitleColor"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- !private ["SH", "Magic"]
 - !private ["SH", "Style"]
 - !private ["SH", "UIAlertAction"]
 - !private ["SH", "UIAlertController"]
 - ["SH", ""]
 - !private ["SH", "addAction"]
 - !private ["SH", "alert"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "black"]
 - !private ["SH", "default"]
 - !private ["SH", "init"]
 - !private ["SH", "init"]
 - !private ["SH", "present"]
+- !private ["SH", "red"]
+- !private ["SH", "setTitle"]
+- !private ["SH", "setTitleColor"]
+- !private ["SH", "temp"]
+- !private ["SH", "updateUI"]
+- !private ["SH", "view"]
 - !private ["SH", "viewDidLoad"]
-- !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s10MirrorPathP", "init"]
-- !private ["s10MirrorPathP", "init"]
+- !private ["SH", "white"]
+- !private ["So8NSCodingP", "Magic"]
 - !private ["So8NSCodingP", "Style"]
 - !private ["So8NSCodingP", "UIAlertAction"]
 - !private ["So8NSCodingP", "UIAlertController"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "black"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "red"]
+- !private ["So8NSCodingP", "setTitle"]
+- !private ["So8NSCodingP", "setTitleColor"]
+- !private ["So8NSCodingP", "temp"]
+- !private ["So8NSCodingP", "updateUI"]
+- !private ["So8NSCodingP", "view"]
 - !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "white"]
 - !private ["So9NSCopyingP", "Style"]
+- !private ["So9NSCopyingP", "black"]
 - !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "red"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So26NSExtensionRequestHandlingP", "Magic"]
 - !private ["So26NSExtensionRequestHandlingP", "Style"]
 - !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
 - !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
@@ -109,56 +182,108 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "temp"]
+- !private ["So26NSExtensionRequestHandlingP", "updateUI"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "red"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "red"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- ["So8NSObjectC", "Magic"]
 - !private ["So8NSObjectC", "Style"]
 - !private ["So8NSObjectC", "UIAlertAction"]
 - !private ["So8NSObjectC", "UIAlertController"]
 - ["So8NSObjectC", "UIButton"]
 - !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "black"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "magicaction"]
 - !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "red"]
+- !private ["So8NSObjectC", "setTitle"]
+- !private ["So8NSObjectC", "setTitleColor"]
 - ["So8NSObjectC", "showMessage"]
+- ["So8NSObjectC", "temp"]
+- ["So8NSObjectC", "updateUI"]
+- !private ["So8NSObjectC", "view"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "Magic"]
 - !private ["So8NSObjectP", "Style"]
 - !private ["So8NSObjectP", "UIAlertAction"]
 - !private ["So8NSObjectP", "UIAlertController"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "black"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "red"]
+- !private ["So8NSObjectP", "setTitle"]
+- !private ["So8NSObjectP", "setTitleColor"]
+- !private ["So8NSObjectP", "temp"]
+- !private ["So8NSObjectP", "updateUI"]
+- !private ["So8NSObjectP", "view"]
 - !private ["So8NSObjectP", "viewDidLoad"]
-- !private ["Sm", "init"]
-- !private ["Sm", "init"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "red"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["Sq", "backgroundColor"]
+- !private ["Sq", "black"]
+- !private ["Sq", "red"]
+- !private ["Sq", "setTitle"]
+- !private ["Sq", "setTitleColor"]
+- !private ["Sq", "white"]
 - !private ["SY", "alert"]
 - !private ["SY", "default"]
-- !private ["ST", "init"]
-- !private ["ST", "init"]
-- !private ["SS", "init"]
-- !private ["SS", "init"]
-- !private ["Sy", "init"]
-- !private ["Sy", "init"]
+- !private ["SY", "normal"]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["So14UIControlStateV", "normal"]
 - !private ["So22UIAlertControllerStyleV", "alert"]
 - !private ["So18UIAlertActionStyleV", "default"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitleColor"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "setTitle"]
+- !private ["So29UIAccessibilityIdentificationP", "setTitleColor"]
 - !private ["So13UIAlertActionC", "Style"]
 - !private ["So13UIAlertActionC", "init"]
 - !private ["So17UIAlertControllerC", "Style"]
 - !private ["So17UIAlertControllerC", "addAction"]
 - !private ["So17UIAlertControllerC", "init"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "setTitle"]
+- !private ["So12UIAppearanceP", "setTitleColor"]
+- !private ["So21UIAppearanceContainerP", "Magic"]
 - !private ["So21UIAppearanceContainerP", "Style"]
 - !private ["So21UIAppearanceContainerP", "UIAlertAction"]
 - !private ["So21UIAppearanceContainerP", "UIAlertController"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "setTitle"]
+- !private ["So21UIAppearanceContainerP", "setTitleColor"]
+- !private ["So21UIAppearanceContainerP", "temp"]
+- !private ["So21UIAppearanceContainerP", "updateUI"]
+- !private ["So21UIAppearanceContainerP", "view"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So8UIButtonC", "setTitle"]
+- !private ["So8UIButtonC", "setTitleColor"]
+- !private ["So7UIColorC", "black"]
+- !private ["So7UIColorC", "red"]
+- !private ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "Magic"]
 - !private ["So18UIContentContainerP", "Style"]
 - !private ["So18UIContentContainerP", "UIAlertAction"]
 - !private ["So18UIContentContainerP", "UIAlertController"]
@@ -167,47 +292,96 @@ depends-member:
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "temp"]
+- !private ["So18UIContentContainerP", "updateUI"]
+- !private ["So18UIContentContainerP", "view"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So9UIControlC", "setTitle"]
+- !private ["So9UIControlC", "setTitleColor"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "setTitle"]
+- !private ["So17UICoordinateSpaceP", "setTitleColor"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "setTitle"]
+- !private ["So13UIDynamicItemP", "setTitleColor"]
+- !private ["So18UIFocusEnvironmentP", "Magic"]
 - !private ["So18UIFocusEnvironmentP", "Style"]
 - !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
 - !private ["So18UIFocusEnvironmentP", "UIAlertController"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "setTitle"]
+- !private ["So18UIFocusEnvironmentP", "setTitleColor"]
+- !private ["So18UIFocusEnvironmentP", "temp"]
+- !private ["So18UIFocusEnvironmentP", "updateUI"]
+- !private ["So18UIFocusEnvironmentP", "view"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "setTitle"]
+- !private ["So11UIFocusItemP", "setTitleColor"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "setTitle"]
+- !private ["So20UIFocusItemContainerP", "setTitleColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "Magic"]
 - !private ["So30UIPasteConfigurationSupportingP", "Style"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "setTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "setTitleColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "temp"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateUI"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Magic"]
 - !private ["So11UIResponderC", "Style"]
 - !private ["So11UIResponderC", "UIAlertAction"]
 - !private ["So11UIResponderC", "UIAlertController"]
 - ["So11UIResponderC", "UIButton"]
 - !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "backgroundColor"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "magicaction"]
 - !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "setTitle"]
+- !private ["So11UIResponderC", "setTitleColor"]
 - ["So11UIResponderC", "showMessage"]
+- ["So11UIResponderC", "temp"]
+- ["So11UIResponderC", "updateUI"]
+- !private ["So11UIResponderC", "view"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Magic"]
 - !private ["So30UIResponderStandardEditActionsP", "Style"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "setTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "setTitleColor"]
+- !private ["So30UIResponderStandardEditActionsP", "temp"]
+- !private ["So30UIResponderStandardEditActionsP", "updateUI"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "Style"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setTitleColor"]
+- !private ["So16UIStateRestoringP", "Magic"]
 - !private ["So16UIStateRestoringP", "Style"]
 - !private ["So16UIStateRestoringP", "UIAlertAction"]
 - !private ["So16UIStateRestoringP", "UIAlertController"]
@@ -216,25 +390,46 @@ depends-member:
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "temp"]
+- !private ["So16UIStateRestoringP", "updateUI"]
+- !private ["So16UIStateRestoringP", "view"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "Magic"]
 - !private ["So18UITraitEnvironmentP", "Style"]
 - !private ["So18UITraitEnvironmentP", "UIAlertAction"]
 - !private ["So18UITraitEnvironmentP", "UIAlertController"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "setTitle"]
+- !private ["So18UITraitEnvironmentP", "setTitleColor"]
+- !private ["So18UITraitEnvironmentP", "temp"]
+- !private ["So18UITraitEnvironmentP", "updateUI"]
+- !private ["So18UITraitEnvironmentP", "view"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Magic"]
 - !private ["So23UIUserActivityRestoringP", "Style"]
 - !private ["So23UIUserActivityRestoringP", "UIAlertAction"]
 - !private ["So23UIUserActivityRestoringP", "UIAlertController"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "setTitle"]
+- !private ["So23UIUserActivityRestoringP", "setTitleColor"]
+- !private ["So23UIUserActivityRestoringP", "temp"]
+- !private ["So23UIUserActivityRestoringP", "updateUI"]
+- !private ["So23UIUserActivityRestoringP", "view"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "setTitle"]
+- !private ["So6UIViewC", "setTitleColor"]
+- ["So16UIViewControllerC", "Magic"]
 - !private ["So16UIViewControllerC", "Style"]
 - !private ["So16UIViewControllerC", "UIAlertAction"]
 - !private ["So16UIViewControllerC", "UIAlertController"]
@@ -243,76 +438,99 @@ depends-member:
 - !private ["So16UIViewControllerC", "addAction"]
 - ["So16UIViewControllerC", "init"]
 - !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "magicaction"]
 - !private ["So16UIViewControllerC", "present"]
 - ["So16UIViewControllerC", "showMessage"]
+- ["So16UIViewControllerC", "temp"]
+- ["So16UIViewControllerC", "updateUI"]
+- !private ["So16UIViewControllerC", "view"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- ["5test114ViewControllerC", "Magic"]
 - !private ["5test114ViewControllerC", "UIAlertAction"]
 - !private ["5test114ViewControllerC", "UIAlertController"]
 - ["5test114ViewControllerC", "UIButton"]
+- ["5test114ViewControllerC", "deinit"]
 - ["5test114ViewControllerC", "init"]
+- ["5test114ViewControllerC", "magicaction"]
 - !private ["5test114ViewControllerC", "present"]
 - ["5test114ViewControllerC", "showMessage"]
+- ["5test114ViewControllerC", "temp"]
+- ["5test114ViewControllerC", "updateUI"]
+- !private ["5test114ViewControllerC", "view"]
 - ["5test114ViewControllerC", "viewDidLoad"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "red"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Magic"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitleColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "temp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateUI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
-- !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s16_SwiftStringViewP", "init"]
-- !private ["s16_SwiftStringViewP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "backgroundColor"]
+- !private ["s21_ObjectiveCBridgeableP", "black"]
+- !private ["s21_ObjectiveCBridgeableP", "red"]
+- !private ["s21_ObjectiveCBridgeableP", "setTitle"]
+- !private ["s21_ObjectiveCBridgeableP", "setTitleColor"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setTitle"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setTitleColor"]
 depends-nominal:
-- !private "SK"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
-- !private "Sl"
-- !private "SL"
 - "s28CustomDebugStringConvertibleP"
-- !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "Se"
 - !private "SE"
 - "SQ"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - "SH"
-- !private "s25LosslessStringConvertibleP"
-- !private "s10MirrorPathP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
-- !private "Sm"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "Sq"
 - !private "SY"
-- !private "ST"
-- !private "SS"
-- !private "Sy"
+- !private "s10SetAlgebraP"
+- !private "So14UIControlStateV"
 - !private "So22UIAlertControllerStyleV"
 - !private "So18UIAlertActionStyleV"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
 - !private "So13UIAlertActionC"
 - !private "So17UIAlertControllerC"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So7UIColorC"
 - "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
@@ -320,19 +538,15 @@ depends-nominal:
 - "So16UIStateRestoringP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
 - "So16UIViewControllerC"
 - "5test114ViewControllerC"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s26_ExpressibleByColorLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
-- !private "s16_SwiftStringViewP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
@@ -345,15 +559,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "b17e83dfae720f90ed0ca7da57731c1e"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4aad4deb887a67fb49a8aeffce470497"
