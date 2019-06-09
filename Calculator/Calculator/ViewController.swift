@@ -22,6 +22,7 @@ class ViewController: UIViewController {
 
     
     @IBOutlet var numButton: [UIButton]!
+    @IBOutlet var opButton: [UIButton]!
     @IBAction func pushNum(_ sender: UIButton) {
             if let number = numButton.firstIndex(of: sender){
                 if calcbutton == false{
@@ -84,41 +85,12 @@ class ViewController: UIViewController {
 
         
     }
-    @IBAction func plus(_ sender: UIButton) {
-        if calcbutton == false{
-            calcbutton = true
-            calcway = "+"
-            showlabel.text = "+"
-        }else{
+    
+    @IBAction func Operator(_ sender: UIButton) {
+        if let OperationButton = opButton[opButton.firstIndex(of: sender)]{
             
         }
-    }
-    @IBAction func minus(_ sender: UIButton) {
-        if calcbutton == false{
-            calcbutton = true
-            calcway = "-"
-            showlabel.text = "-"
-        }else{
-            
-        }
-    }
-    @IBAction func times(_ sender: UIButton) {
-        if calcbutton == false{
-            calcbutton = true
-            calcway = "*"
-            showlabel.text = "×"
-        }else{
-            
-        }
-    }
-    @IBAction func divide(_ sender: UIButton) {
-        if calcbutton == false{
-            calcbutton = true
-            calcway = "/"
-            showlabel.text = "÷"
-        }else{
-            
-        }
+        
     }
     @IBAction func clear(_ sender: UIButton) {
         first = ""

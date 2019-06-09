@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "057b415daecf335c3d2a35cea165fe96"
+build_time: [1559209416, 90249000]
+inputs:
+  "/Users/bojunhuang/Downloads/HeartRateMonitor-starter/HeartRateMonitor/HRMViewController.swift": [1559193678, 228809112]
+  "/Users/bojunhuang/Downloads/HeartRateMonitor-starter/HeartRateMonitor/AppDelegate.swift": [1510526043, 0]

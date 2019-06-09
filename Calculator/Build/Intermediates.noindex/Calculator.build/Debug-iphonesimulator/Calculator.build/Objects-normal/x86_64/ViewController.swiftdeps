@@ -9,24 +9,16 @@ provides-dynamic-lookup:
 - "clear"
 - "divide"
 - "dot"
-- "eight"
 - "equal"
-- "five"
-- "four"
 - "minus"
 - "mod"
-- "nine"
-- "one"
+- "numButton"
 - "plus"
 - "plusminus"
-- "seven"
+- "pushNum"
 - "showlabel"
-- "six"
-- "three"
 - "times"
-- "two"
 - "viewDidLoad"
-- "zero"
 depends-top-level:
 - !private "*"
 - !private "+"
@@ -38,7 +30,8 @@ depends-top-level:
 - "Character"
 - !private "Double"
 - "ExtendedGraphemeClusterType"
-- !private "FloatLiteralType"
+- "FloatLiteralType"
+- "IntegerLiteralType"
 - "String"
 - "StringLiteralType"
 - "UIButton"
@@ -46,72 +39,108 @@ depends-top-level:
 - "UIViewController"
 - "UnicodeScalarType"
 - "ViewController"
+- "calculate"
 - !private "~="
 depends-member:
 - !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "firstIndex"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "firstIndex"]
 - !private ["SK", "init"]
+- !private ["SK", "subscript"]
 - !private ["SB", "init"]
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["s7CVarArgP", "Double"]
 - !private ["s7CVarArgP", "String"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "calcbutton"]
-- !private ["s7CVarArgP", "calculate"]
+- ["s7CVarArgP", "calculate"]
 - !private ["s7CVarArgP", "calcway"]
+- !private ["s7CVarArgP", "dotbutton"]
 - !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "firstIndex"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "later"]
+- !private ["s7CVarArgP", "numButton"]
 - !private ["s7CVarArgP", "showlabel"]
+- !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "firstIndex"]
 - !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
 - !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "firstIndex"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "Double"]
 - !private ["s28CustomDebugStringConvertibleP", "String"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "calcbutton"]
-- !private ["s28CustomDebugStringConvertibleP", "calculate"]
+- ["s28CustomDebugStringConvertibleP", "calculate"]
 - !private ["s28CustomDebugStringConvertibleP", "calcway"]
+- !private ["s28CustomDebugStringConvertibleP", "dotbutton"]
 - !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "firstIndex"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "later"]
+- !private ["s28CustomDebugStringConvertibleP", "numButton"]
 - !private ["s28CustomDebugStringConvertibleP", "showlabel"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "firstIndex"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "text"]
 - !private ["s23CustomStringConvertibleP", "Double"]
 - !private ["s23CustomStringConvertibleP", "String"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "calcbutton"]
-- !private ["s23CustomStringConvertibleP", "calculate"]
+- ["s23CustomStringConvertibleP", "calculate"]
 - !private ["s23CustomStringConvertibleP", "calcway"]
+- !private ["s23CustomStringConvertibleP", "dotbutton"]
 - !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "firstIndex"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "later"]
+- !private ["s23CustomStringConvertibleP", "numButton"]
 - !private ["s23CustomStringConvertibleP", "showlabel"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "text"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["10Foundation12DataProtocolP", "firstIndex"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "firstIndex"]
 - !private ["Se", "init"]
+- !private ["Se", "subscript"]
 - !private ["Se", "text"]
 - !private ["Sd", "init"]
+- !private ["SE", "firstIndex"]
 - !private ["SE", "init"]
+- !private ["SE", "subscript"]
 - !private ["SE", "text"]
 - !private ["SQ", "Double"]
 - !private ["SQ", "String"]
 - ["SQ", ""]
 - !private ["SQ", "calcbutton"]
-- !private ["SQ", "calculate"]
+- ["SQ", "calculate"]
 - !private ["SQ", "calcway"]
+- !private ["SQ", "dotbutton"]
 - !private ["SQ", "first"]
+- !private ["SQ", "firstIndex"]
 - !private ["SQ", "init"]
 - !private ["SQ", "later"]
+- !private ["SQ", "numButton"]
 - !private ["SQ", "showlabel"]
+- !private ["SQ", "subscript"]
 - !private ["SQ", "text"]
 - !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "firstIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "firstIndex"]
 - !private ["s23ExpressibleByNilLiteralP", "text"]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
@@ -121,25 +150,35 @@ depends-member:
 - !private ["SH", "String"]
 - ["SH", ""]
 - !private ["SH", "calcbutton"]
-- !private ["SH", "calculate"]
+- ["SH", "calculate"]
 - !private ["SH", "calcway"]
+- !private ["SH", "dotbutton"]
 - !private ["SH", "first"]
+- !private ["SH", "firstIndex"]
 - !private ["SH", "init"]
 - !private ["SH", "later"]
+- !private ["SH", "numButton"]
 - !private ["SH", "showlabel"]
+- !private ["SH", "subscript"]
 - !private ["SH", "text"]
 - !private ["SH", "viewDidLoad"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
+- !private ["SM", "firstIndex"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "firstIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - !private ["So8NSCodingP", "Double"]
 - !private ["So8NSCodingP", "String"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "calcbutton"]
-- !private ["So8NSCodingP", "calculate"]
+- ["So8NSCodingP", "calculate"]
 - !private ["So8NSCodingP", "calcway"]
+- !private ["So8NSCodingP", "dotbutton"]
 - !private ["So8NSCodingP", "first"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "later"]
+- !private ["So8NSCodingP", "numButton"]
 - !private ["So8NSCodingP", "showlabel"]
 - !private ["So8NSCodingP", "text"]
 - !private ["So8NSCodingP", "viewDidLoad"]
@@ -147,11 +186,13 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "String"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "calcbutton"]
-- !private ["So26NSExtensionRequestHandlingP", "calculate"]
+- ["So26NSExtensionRequestHandlingP", "calculate"]
 - !private ["So26NSExtensionRequestHandlingP", "calcway"]
+- !private ["So26NSExtensionRequestHandlingP", "dotbutton"]
 - !private ["So26NSExtensionRequestHandlingP", "first"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "later"]
+- !private ["So26NSExtensionRequestHandlingP", "numButton"]
 - !private ["So26NSExtensionRequestHandlingP", "showlabel"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So8NSObjectC", "Character"]
@@ -165,45 +206,47 @@ depends-member:
 - ["So8NSObjectC", "clear"]
 - ["So8NSObjectC", "divide"]
 - ["So8NSObjectC", "dot"]
-- ["So8NSObjectC", "eight"]
+- ["So8NSObjectC", "dotbutton"]
 - ["So8NSObjectC", "equal"]
 - ["So8NSObjectC", "first"]
-- ["So8NSObjectC", "five"]
-- ["So8NSObjectC", "four"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "later"]
 - ["So8NSObjectC", "minus"]
 - ["So8NSObjectC", "mod"]
-- ["So8NSObjectC", "nine"]
-- ["So8NSObjectC", "one"]
+- ["So8NSObjectC", "numButton"]
 - ["So8NSObjectC", "plus"]
 - ["So8NSObjectC", "plusminus"]
-- ["So8NSObjectC", "seven"]
+- ["So8NSObjectC", "pushNum"]
 - ["So8NSObjectC", "showlabel"]
-- ["So8NSObjectC", "six"]
 - !private ["So8NSObjectC", "text"]
-- ["So8NSObjectC", "three"]
 - ["So8NSObjectC", "times"]
-- ["So8NSObjectC", "two"]
 - ["So8NSObjectC", "viewDidLoad"]
-- ["So8NSObjectC", "zero"]
 - !private ["So8NSObjectP", "Double"]
 - !private ["So8NSObjectP", "String"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "calcbutton"]
-- !private ["So8NSObjectP", "calculate"]
+- ["So8NSObjectP", "calculate"]
 - !private ["So8NSObjectP", "calcway"]
+- !private ["So8NSObjectP", "dotbutton"]
 - !private ["So8NSObjectP", "first"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "later"]
+- !private ["So8NSObjectP", "numButton"]
 - !private ["So8NSObjectP", "showlabel"]
 - !private ["So8NSObjectP", "text"]
 - !private ["So8NSObjectP", "viewDidLoad"]
 - !private ["Sj", "init"]
+- !private ["Sq", "firstIndex"]
 - !private ["Sq", "text"]
+- !private ["Sk", "firstIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "firstIndex"]
 - !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
 - !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "firstIndex"]
 - !private ["ST", "init"]
+- !private ["ST", "subscript"]
 - !private ["s13SignedNumericP", "init"]
 - !private ["Sx", "init"]
 - !private ["SS", "init"]
@@ -216,11 +259,13 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "String"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "calcbutton"]
-- !private ["So21UIAppearanceContainerP", "calculate"]
+- ["So21UIAppearanceContainerP", "calculate"]
 - !private ["So21UIAppearanceContainerP", "calcway"]
+- !private ["So21UIAppearanceContainerP", "dotbutton"]
 - !private ["So21UIAppearanceContainerP", "first"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "later"]
+- !private ["So21UIAppearanceContainerP", "numButton"]
 - !private ["So21UIAppearanceContainerP", "showlabel"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
@@ -228,11 +273,13 @@ depends-member:
 - !private ["So18UIContentContainerP", "String"]
 - ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "calcbutton"]
-- !private ["So18UIContentContainerP", "calculate"]
+- ["So18UIContentContainerP", "calculate"]
 - !private ["So18UIContentContainerP", "calcway"]
+- !private ["So18UIContentContainerP", "dotbutton"]
 - !private ["So18UIContentContainerP", "first"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "later"]
+- !private ["So18UIContentContainerP", "numButton"]
 - !private ["So18UIContentContainerP", "showlabel"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
@@ -242,11 +289,13 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "String"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "calcbutton"]
-- !private ["So18UIFocusEnvironmentP", "calculate"]
+- ["So18UIFocusEnvironmentP", "calculate"]
 - !private ["So18UIFocusEnvironmentP", "calcway"]
+- !private ["So18UIFocusEnvironmentP", "dotbutton"]
 - !private ["So18UIFocusEnvironmentP", "first"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "later"]
+- !private ["So18UIFocusEnvironmentP", "numButton"]
 - !private ["So18UIFocusEnvironmentP", "showlabel"]
 - !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
@@ -257,11 +306,13 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "calcbutton"]
-- !private ["So30UIPasteConfigurationSupportingP", "calculate"]
+- ["So30UIPasteConfigurationSupportingP", "calculate"]
 - !private ["So30UIPasteConfigurationSupportingP", "calcway"]
+- !private ["So30UIPasteConfigurationSupportingP", "dotbutton"]
 - !private ["So30UIPasteConfigurationSupportingP", "first"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "later"]
+- !private ["So30UIPasteConfigurationSupportingP", "numButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "showlabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
@@ -276,37 +327,32 @@ depends-member:
 - ["So11UIResponderC", "clear"]
 - ["So11UIResponderC", "divide"]
 - ["So11UIResponderC", "dot"]
-- ["So11UIResponderC", "eight"]
+- ["So11UIResponderC", "dotbutton"]
 - ["So11UIResponderC", "equal"]
 - ["So11UIResponderC", "first"]
-- ["So11UIResponderC", "five"]
-- ["So11UIResponderC", "four"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "later"]
 - ["So11UIResponderC", "minus"]
 - ["So11UIResponderC", "mod"]
-- ["So11UIResponderC", "nine"]
-- ["So11UIResponderC", "one"]
+- ["So11UIResponderC", "numButton"]
 - ["So11UIResponderC", "plus"]
 - ["So11UIResponderC", "plusminus"]
-- ["So11UIResponderC", "seven"]
+- ["So11UIResponderC", "pushNum"]
 - ["So11UIResponderC", "showlabel"]
-- ["So11UIResponderC", "six"]
 - !private ["So11UIResponderC", "text"]
-- ["So11UIResponderC", "three"]
 - ["So11UIResponderC", "times"]
-- ["So11UIResponderC", "two"]
 - ["So11UIResponderC", "viewDidLoad"]
-- ["So11UIResponderC", "zero"]
 - !private ["So30UIResponderStandardEditActionsP", "Double"]
 - !private ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "calcbutton"]
-- !private ["So30UIResponderStandardEditActionsP", "calculate"]
+- ["So30UIResponderStandardEditActionsP", "calculate"]
 - !private ["So30UIResponderStandardEditActionsP", "calcway"]
+- !private ["So30UIResponderStandardEditActionsP", "dotbutton"]
 - !private ["So30UIResponderStandardEditActionsP", "first"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "later"]
+- !private ["So30UIResponderStandardEditActionsP", "numButton"]
 - !private ["So30UIResponderStandardEditActionsP", "showlabel"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
@@ -314,22 +360,26 @@ depends-member:
 - !private ["So16UIStateRestoringP", "String"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "calcbutton"]
-- !private ["So16UIStateRestoringP", "calculate"]
+- ["So16UIStateRestoringP", "calculate"]
 - !private ["So16UIStateRestoringP", "calcway"]
+- !private ["So16UIStateRestoringP", "dotbutton"]
 - !private ["So16UIStateRestoringP", "first"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "later"]
+- !private ["So16UIStateRestoringP", "numButton"]
 - !private ["So16UIStateRestoringP", "showlabel"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So18UITraitEnvironmentP", "Double"]
 - !private ["So18UITraitEnvironmentP", "String"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "calcbutton"]
-- !private ["So18UITraitEnvironmentP", "calculate"]
+- ["So18UITraitEnvironmentP", "calculate"]
 - !private ["So18UITraitEnvironmentP", "calcway"]
+- !private ["So18UITraitEnvironmentP", "dotbutton"]
 - !private ["So18UITraitEnvironmentP", "first"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "later"]
+- !private ["So18UITraitEnvironmentP", "numButton"]
 - !private ["So18UITraitEnvironmentP", "showlabel"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
@@ -337,11 +387,13 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "String"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "calcbutton"]
-- !private ["So23UIUserActivityRestoringP", "calculate"]
+- ["So23UIUserActivityRestoringP", "calculate"]
 - !private ["So23UIUserActivityRestoringP", "calcway"]
+- !private ["So23UIUserActivityRestoringP", "dotbutton"]
 - !private ["So23UIUserActivityRestoringP", "first"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "later"]
+- !private ["So23UIUserActivityRestoringP", "numButton"]
 - !private ["So23UIUserActivityRestoringP", "showlabel"]
 - !private ["So23UIUserActivityRestoringP", "text"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
@@ -358,27 +410,20 @@ depends-member:
 - ["So16UIViewControllerC", "clear"]
 - ["So16UIViewControllerC", "divide"]
 - ["So16UIViewControllerC", "dot"]
-- ["So16UIViewControllerC", "eight"]
+- ["So16UIViewControllerC", "dotbutton"]
 - ["So16UIViewControllerC", "equal"]
 - ["So16UIViewControllerC", "first"]
-- ["So16UIViewControllerC", "five"]
-- ["So16UIViewControllerC", "four"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "later"]
 - ["So16UIViewControllerC", "minus"]
 - ["So16UIViewControllerC", "mod"]
-- ["So16UIViewControllerC", "nine"]
-- ["So16UIViewControllerC", "one"]
+- ["So16UIViewControllerC", "numButton"]
 - ["So16UIViewControllerC", "plus"]
 - ["So16UIViewControllerC", "plusminus"]
-- ["So16UIViewControllerC", "seven"]
+- ["So16UIViewControllerC", "pushNum"]
 - ["So16UIViewControllerC", "showlabel"]
-- ["So16UIViewControllerC", "six"]
-- ["So16UIViewControllerC", "three"]
 - ["So16UIViewControllerC", "times"]
-- ["So16UIViewControllerC", "two"]
 - ["So16UIViewControllerC", "viewDidLoad"]
-- ["So16UIViewControllerC", "zero"]
 - ["10Calculator14ViewControllerC", "Character"]
 - !private ["10Calculator14ViewControllerC", "Double"]
 - ["10Calculator14ViewControllerC", "String"]
@@ -391,67 +436,76 @@ depends-member:
 - ["10Calculator14ViewControllerC", "deinit"]
 - ["10Calculator14ViewControllerC", "divide"]
 - ["10Calculator14ViewControllerC", "dot"]
-- ["10Calculator14ViewControllerC", "eight"]
+- ["10Calculator14ViewControllerC", "dotbutton"]
 - ["10Calculator14ViewControllerC", "equal"]
 - ["10Calculator14ViewControllerC", "first"]
-- ["10Calculator14ViewControllerC", "five"]
-- ["10Calculator14ViewControllerC", "four"]
 - ["10Calculator14ViewControllerC", "init"]
 - ["10Calculator14ViewControllerC", "later"]
 - ["10Calculator14ViewControllerC", "minus"]
 - ["10Calculator14ViewControllerC", "mod"]
-- ["10Calculator14ViewControllerC", "nine"]
-- ["10Calculator14ViewControllerC", "one"]
+- ["10Calculator14ViewControllerC", "numButton"]
 - ["10Calculator14ViewControllerC", "plus"]
 - ["10Calculator14ViewControllerC", "plusminus"]
-- ["10Calculator14ViewControllerC", "seven"]
+- ["10Calculator14ViewControllerC", "pushNum"]
 - ["10Calculator14ViewControllerC", "showlabel"]
-- ["10Calculator14ViewControllerC", "six"]
-- ["10Calculator14ViewControllerC", "three"]
 - ["10Calculator14ViewControllerC", "times"]
-- ["10Calculator14ViewControllerC", "two"]
 - ["10Calculator14ViewControllerC", "viewDidLoad"]
-- ["10Calculator14ViewControllerC", "zero"]
+- !private ["s14_ArrayProtocolP", "firstIndex"]
+- !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "firstIndex"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "firstIndex"]
 - !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "firstIndex"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "calcbutton"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "calculate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "calculate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "calcway"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dotbutton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "first"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "later"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "showlabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "firstIndex"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "text"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
+- !private "Sa"
 - !private "SK"
 - !private "SB"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - !private "Sl"
 - !private "SL"
+- !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
 - !private "Se"
 - !private "Sd"
 - !private "SE"
 - "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
@@ -463,12 +517,15 @@ depends-nominal:
 - "SH"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "Sj"
 - !private "Sq"
+- !private "Sk"
 - !private "Sm"
 - !private "s10SIMDScalarP"
 - !private "ST"
@@ -498,9 +555,11 @@ depends-nominal:
 - !private "So6UIViewC"
 - "So16UIViewControllerC"
 - "10Calculator14ViewControllerC"
+- !private "s14_ArrayProtocolP"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
 - !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
@@ -537,4 +596,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "37e407030ba2948bd68965daf0c38f98"
+interface-hash: "b6db7c2e86c25f4ec5595c9449f850a6"

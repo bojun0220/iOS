@@ -12,6 +12,7 @@
 		F867B764224CB08A00AE943F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F867B762224CB08A00AE943F /* Main.storyboard */; };
 		F867B766224CB08B00AE943F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F867B765224CB08B00AE943F /* Assets.xcassets */; };
 		F867B769224CB08B00AE943F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F867B767224CB08B00AE943F /* LaunchScreen.storyboard */; };
+		F8DB86DC225A450F0063FCCE /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DB86DB225A450F0063FCCE /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F867B765224CB08B00AE943F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F867B768224CB08B00AE943F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F867B76A224CB08B00AE943F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8DB86DB225A450F0063FCCE /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F867B75E224CB08A00AE943F /* AppDelegate.swift */,
 				F867B760224CB08A00AE943F /* ViewController.swift */,
 				F867B762224CB08A00AE943F /* Main.storyboard */,
+				F8DB86DB225A450F0063FCCE /* Calculator.swift */,
 				F867B765224CB08B00AE943F /* Assets.xcassets */,
 				F867B767224CB08B00AE943F /* LaunchScreen.storyboard */,
 				F867B76A224CB08B00AE943F /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				F867B761224CB08A00AE943F /* ViewController.swift in Sources */,
 				F867B75F224CB08A00AE943F /* AppDelegate.swift in Sources */,
+				F8DB86DC225A450F0063FCCE /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

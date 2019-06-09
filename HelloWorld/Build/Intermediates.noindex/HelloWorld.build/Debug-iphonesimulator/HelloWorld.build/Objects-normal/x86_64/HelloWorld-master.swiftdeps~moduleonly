@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "fd0d73be87759dca1d65bb74217b54e6"
-build_time: [1553261840, 251600000]
-inputs:
-  "/Users/bojunhuang/Github/iOS/HelloWorld/HelloWorld/ViewController.swift": [1553261831, 0]
-  "/Users/bojunhuang/Github/iOS/HelloWorld/HelloWorld/AppDelegate.swift": [1553261831, 0]

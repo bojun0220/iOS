@@ -81,7 +81,7 @@
                                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <state key="normal" title="÷"/>
                                                                 <connections>
-                                                                    <action selector="divide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mrt-ce-cE7"/>
+                                                                    <action selector="Operator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LiO-7x-hCq"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -122,7 +122,7 @@
                                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <state key="normal" title="×"/>
                                                                 <connections>
-                                                                    <action selector="times:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wcu-LZ-3D7"/>
+                                                                    <action selector="Operator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iY9-Lw-r0t"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -163,7 +163,7 @@
                                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <state key="normal" title="−"/>
                                                                 <connections>
-                                                                    <action selector="minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uf6-1c-G5t"/>
+                                                                    <action selector="Operator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GXB-wH-RvH"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -204,7 +204,7 @@
                                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <state key="normal" title="+"/>
                                                                 <connections>
-                                                                    <action selector="plus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="thP-Kd-l4S"/>
+                                                                    <action selector="Operator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ile-jk-JXp"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -235,9 +235,6 @@
                                                                 <color key="backgroundColor" red="1" green="0.024170271520000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <state key="normal" title="="/>
-                                                                <connections>
-                                                                    <action selector="equal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f5M-I1-FSD"/>
-                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -283,6 +280,10 @@
                         <outletCollection property="numButton" destination="O4A-yQ-czR" collectionClass="NSMutableArray" id="eEJ-z8-qJv"/>
                         <outletCollection property="numButton" destination="v0J-0z-5gx" collectionClass="NSMutableArray" id="Fvq-Ax-3cf"/>
                         <outletCollection property="numButton" destination="Lzy-0U-MeI" collectionClass="NSMutableArray" id="VVa-EG-ITa"/>
+                        <outletCollection property="opButton" destination="SBl-Sd-f4O" collectionClass="NSMutableArray" id="b2a-bb-sSO"/>
+                        <outletCollection property="opButton" destination="zT7-PT-vCj" collectionClass="NSMutableArray" id="f5D-bu-xpd"/>
+                        <outletCollection property="opButton" destination="GU9-u2-zoC" collectionClass="NSMutableArray" id="vY8-th-7VJ"/>
+                        <outletCollection property="opButton" destination="wfB-a0-FSy" collectionClass="NSMutableArray" id="rRH-my-DHU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
